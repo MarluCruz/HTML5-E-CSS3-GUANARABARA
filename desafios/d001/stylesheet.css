@@ -1,0 +1,10 @@
+.narrow {
+    padding: 5px;
+    border: 1px solid;
+    display: table;
+    max-width: 100%;
+}
+
+.breakAll {
+    word-break: break-all;
+}

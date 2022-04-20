@@ -1,0 +1,14 @@
+@charset "UTF-8";
+header{
+    width: 200px;
+    outline-width: 2px;
+    outline-style: solid;
+    outline-color: black;
+}
+nav{
+    margin: auto;
+}
+#botao{
+    text-align: center;
+    color: aqua;
+}

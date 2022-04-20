@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+        }
+        nav{
+           background-color: rgb(102, 102, 102);
+           padding: 3px;
+           box-shadow: 1px 1px 1px black;
+           
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin: 0px;
+            padding: 4px;
+        }
+        article{
+            background-color: lightgrey;
+            padding: 5px;
+        }
+        aside{
+            background-color: rgb(117, 111, 111);
+        }
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Assuntos">
+            <p>Esporte, Política e Tecnologia</p>
+        </section>
+        <section id="Notícias">
+            <article>
+                <h2>Notícias do Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eligendi doloribus iste, harum optio eveniet, dolorem nam ab animi est eum illum facere ut quaerat? Recusandae veritatis mollitia autem voluptates?</p>
+                <aside>
+                    Artigo escrito por José da Silva
+                </aside>
+            </article>
+        </section>
+        <footer><p>Desenvolvido por Marlus</p></footer>
+    </main>
+</body>
+</html>

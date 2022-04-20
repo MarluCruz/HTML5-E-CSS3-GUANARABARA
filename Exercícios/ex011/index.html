@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias Html5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir este site em dispositivos diferentes ou mude a tela do seu navegador</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/Imagem_P.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/Imagem_M.png" type="image/png">
+        <img src="imagens/Imagem_G.png" alt="Imagem Grande">
+        sou
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <ul>
+        <li>
+            Música de código aberto do Youtube: <br>
+            <audio src="midia/Chasing the Dragons - Joel Cummins, Kris Myers, Andy Farag.mp3" preload="none" controls=""></audio>
+        </li>
+        <li>
+            Doctor Worm: <br>
+            <audio preload="none" controls>
+                <source src="midia/DoctorWorm.mp3" type="audio/mp3">
+                <source src="midia/DoctorWorm.ogg" type="audio/mp3">
+                <source src="midia/DoctorWorm.wav" type="audio/mp3">
+                <p>Seu navegador não suporta o áudio <a href="midia/DoctorWorm.mp3" download="DoctorWorm.mp3" type="audio/mp3">baixe aqui</a></p>
+            </audio> 
+        </li>
+    </ul>
+</body>
+</html>

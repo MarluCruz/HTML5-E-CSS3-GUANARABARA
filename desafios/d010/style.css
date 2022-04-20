@@ -1,0 +1,143 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84E1AD;
+    margin: 0px;
+}
+header{
+    background-image: linear-gradient(to bottom, rgb(57, 206, 124), rgb(49, 175, 105), rgb(40, 141, 85), rgb(26, 92, 56));
+    color: white;
+    padding-top: 15px;
+    box-shadow: 3px 2.5px 4px rgba(0, 0, 0, 0.253);
+}
+nav{
+    padding: 5px;
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 15px;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+main{
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+    max-width: 800px;
+    min-width: 400;
+    border-radius: 5px;
+    box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.596);
+}
+main
+main > p{
+    text-indent: 10px;
+    text-align: justify;
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+    margin: 0px;
+}
+h2{
+    font-family: 'idroid';
+    color: #1D5E3B;
+}
+h3{
+    font-family: 'idroid';
+    background-color: #E0F5E9;
+    color: #1D5E3B;
+
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#subtítulo{
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center; 
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    font-size: 1.25em;
+    padding: 20px;
+    text-shadow: 1.25px 1.25px 0px rgba(0, 0, 0, 0.466);
+}
+#caixa01{
+   position: relative;
+   background-color: #1A5C38;
+   height: 0px;
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-bottom: 15px;
+   padding-bottom: 59%;
+}
+#caixa01 > iframe{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+}
+#video01{
+    display: block;
+    margin: auto;
+    padding: 20px 35px;
+}
+section{
+    background-color: #C5EBD6;
+    border-radius: 10px;
+}
+h4{
+    color: white;
+    background-color: #2FA866;
+    padding: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+#caixa02{
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;  
+}
+#caixa02 > p{
+    text-indent: 05px;
+}
+#caixa02 > ul{
+    list-style: none;
+    columns: 2;
+}
+#caixa02> ul li::before{
+    content: '✔';
+}
+.linkv{
+    color: #1D5E3B;
+    text-decoration: none;
+    font-weight: bold;
+}
+.linkv:hover{
+    text-decoration: underline;
+}
+.linkv::after{
+    content: '🔗';
+}
+.linkn{
+    color: black;
+}
+.realceverde{
+    color: #1D5E3B;
+}
+footer{
+    color: white;
+    background-color: #1A5C38;
+    padding: 5px;
+    margin-top: 15px;
+    text-align: center;
+}
