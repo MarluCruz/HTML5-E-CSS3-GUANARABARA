@@ -42,6 +42,39 @@ header a:hover{
 main{
     background-color: white;
 }
+section.normal{
+    font-size: 3.5vw;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+section.imagem {
+    color: white;
+    font-size: 3.5vw;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    box-shadow: inset 6px 6px 13px 0px black;
+}
+section.imagem > p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.404);
+    margin-bottom: 40px;
+}
+section#imagem01{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section#imagem02{
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
 footer{
     padding: 8px;
     background-color: black;
@@ -55,37 +88,4 @@ footer  a{
 }
 footer a:hover{
     text-decoration: underline;
-}
-
-section.imagem {
-    color: white;
-    font-size: 3.5vw;
-    padding-top: 60px;
-    padding-bottom: 20px;
-    padding-left: 40px;
-}
-section.imagem > p{
-    display: inline-block;
-    padding: 5px;
-    background-color: rgba(0, 0, 0, 0.514);
-    text-shadow: 1px 1px 0px black;
-    margin-bottom: 40px;
-}
-section.normal{
-    font-size: 3.5vw;
-    padding-top: 60px;
-    padding-bottom: 20px;
-    padding-left: 40px;
-}
-section#imagem01{
-    background-image: url('../imagens/background001.jpg');
-    background-position: right center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-section#imagem02{
-    background-image: url('../imagens/background002.jpg');
-    background-position: right center;
-    background-size: cover;
-    background-attachment: fixed;
 }
