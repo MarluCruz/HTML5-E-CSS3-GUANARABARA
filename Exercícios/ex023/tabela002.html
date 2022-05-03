@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha primeira Tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            height: 400px;
+            width: 400px;             
+        }
+        td{
+            border: 1px;
+            border-color: black;
+            border-style: solid;
+            padding: 6px;
+            text-align: center; /* Realiza o alinhamento horizontal*/
+        }
+        td.number{
+            vertical-align: top; /* Realiza o alinhamento vertical*/
+        }
+        td:hover{
+            background-color: lightgrey;
+            transition-duration: 0.375s;
+        }
+    </style>
+</head>
+<!--
+    Hierarquia de Tabelas(simples)
+    Table = Tabela
+    Table Row = linhas de tabela
+    Table header = caneçalho de tabela
+    Table data = dado de tabela
+-->
+<body>
+    
+    <h1>Minha primeira Tabela</h1>
+    <table><!--Tabela-->
+        <tr><!--Linha de Tabela-->
+            <td>A1</td><!--Dado de Tabela-->
+            <td>B2</td><!--Dado de Tabela-->
+            <td>C3</td><!--Dado de Tabela-->
+        </tr>
+        <tr><!--Linha de Tabela-->
+            <td>A2</td><!--Dado de Tabela-->
+            <td>B2</td><!--Dado de Tabela-->
+            <td class="number">C2</td><!--Dado de Tabela-->
+        </tr>
+        <tr><!--Linha de Tabela-->
+            <td>A3</td><!--Dado de Tabela-->
+            <td>B3</td><!--Dado de Tabela-->
+            <td class="number">C3</td><!--Dado de Tabela-->
+        </tr>
+        <tr><!--Linha de Tabela-->
+            <td>A4</td><!--Dado de Tabela-->
+            <td>B4</td><!--Dado de Tabela-->
+        </tr>
+        <tr><!--Linha de Tabela-->
+            <td>A5</td><!--Dado de Tabela-->
+        </tr>
+    </table>
+
+</body>
+</html>
