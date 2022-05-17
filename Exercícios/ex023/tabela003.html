@@ -9,14 +9,26 @@
         body{
             font-family: Arial, Helvetica, sans-serif;
         }
+        tbody > tr:nth-child(2n){
+            background-color: lightgrey;
+        }
         table{
             margin: auto;
             border-collapse: collapse;
             width: 750px;
+            position: relative;
+        }
+        caption{
+            font-size: 1.55em;
+            font-weight: bold;
         }
         td, th{
             border: 1px solid black;
             padding: 8px;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
         }
         td.Pop2010, td.Pop2021{
             text-align: right;
@@ -40,15 +52,16 @@
 </head>
 <body>
     <table>
+        <caption>População das Unidades Federativas do Brasil</caption>
         <thead>
             <tr>
-                <th>Posição</th>
-                <th>Unidade Federativa</th>
-                <th>População 2010</th>
-                <th>População 2021</th>
-                <th>Mudança</th>
-                <th>% da pop. total</th>
-                <th>País comparável (habitantes)</th>
+                <th scope="col">Posição</th>
+                <th scope="col">Unidade Federativa</th>
+                <th scope="col">População 2010</th>
+                <th scope="col">População 2021</th>
+                <th scope="col">Mudança</th>
+                <th scope="col">% da pop. total</th>
+                <th scope="col">País comparável (habitantes)</th>
             </tr>
         </thead>
         
@@ -299,9 +312,9 @@
         </tbody>
         
         <tfoot>
-            <th>Total de Habitantes do<img src="imagens/Países/Flag_of_Brazil.svg.webp"></th>
-            <td>195,7 milhões</td>
-            <td>213,3 milhões</td>
+            <th scope="row" colspan="3">Total de Habitantes do <img src="imagens/Países/Flag_of_Brazil.svg.webp"></th>
+            <td colspan="2.34">195,7 milhões</td>
+            <td colspan="2.34">213,3 milhões</td>
         </tfoot>
     </table>
 </body>
