@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando Colunas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.45em;
+            font-weight: bold;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+        .cnomes{
+            text-align: left;
+            background-color: silver;
+        }
+        .cclasses{
+            background-color: goldenrod;
+        }
+        .creinos{
+            background-color: blueviolet;
+        }
+        .crank{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Cadastro de Aventureiros</caption>
+        <colgroup>
+            <col class="cnomes">
+            <col class="cclasses">
+            <col class="creinos">
+            <col class="crank">
+        </colgroup>
+        <thead>
+            <th scope="col">Nomes</th>
+            <th scope="col">Classes</th>
+            <th scope="col">Reinos</th>
+            <th scope="col">Rank</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lothar Graywolf</td>
+                <td>Paladino</td>
+                <td>Svalas</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Vanessa Drake</td>
+                <td>Sacerdotisa</td>
+                <td>Bielefeld</td>
+                <td>S</td>
+            </tr>
+            <tr>
+                <td>Valla</td>
+                <td>Patrulheira</td>
+                <td>Deheon</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td>Hanzo Hamada</td>
+                <td>Samurai</td>
+                <td>Tamurá</td>
+                <td>C</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
